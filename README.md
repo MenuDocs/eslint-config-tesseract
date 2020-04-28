@@ -1,42 +1,48 @@
 # MenuDocs-lint
-Central shareable eslint config for all MenuDocs projects
+> Central shareable eslint config for all MenuDocs projects
 
-## Install via npm
+## Installation
 
-```bash
-npm i -dev eslint-config-tesseract eslint
+### npm
+
+```shell
+npm i -D eslint-config-tesseract eslint
 ```
 
-## Install via yarn
+### yarn
 
-```bash
+```shell
 yarn add -D eslint-config-tesseract eslint
 ```
 
-## Install via github
+### GitHub
 
-NPM:
+- npm:
 
-```bash
+```shell
 npm i --save-dev MenuDocs/eslint-config-tesseract eslint
 ```
 
-Yarn:
+- yarn:
 
-```bash 
+```shell 
 yarn add -D MenuDocs/eslint-config-tesseract eslint
 ```
 
-## Standard eslint rules
+## Standard ESLint rules
+
 ```json
 {
-	"extends": "tesseract"
+    "extends": "tesseract"
 }
 ```
-requires:
-* eslint
+
+### Pre-requisites
+
+- [ESLint](https://eslint.org)
 
 ## Setting up ESLint rules
+
 ESLint may display a lot of warnings and errors about your code when you start using it, but don't let this startle you. In order to get started, follow these steps:
 
 1) Create a file in your root directory named `.eslintrc.json` (where your main project file is located).
