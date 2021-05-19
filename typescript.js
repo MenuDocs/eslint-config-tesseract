@@ -152,7 +152,6 @@ module.exports = {
 		],
 		'@typescript-eslint/interface-name-prefix': 0,
 		'@typescript-eslint/member-delimiter-style': 2,
-		'@typescript-eslint/no-dynamic-delete': 2,
 		'@typescript-eslint/no-unnecessary-condition': 2,
 		'@typescript-eslint/no-unnecessary-type-arguments': 2,
 		'@typescript-eslint/prefer-function-type': 2,
