@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tesseract",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A custom config for ESLint which will be used in MenuDocs Node.js projects.",
   "main": "index.js",
   "repository": "https://github.com/MenuDocs/eslint-config-tesseract.git",
@@ -16,7 +16,6 @@
     "typescript": "^4.2.4"
   },
   "engines": {
-    "node": ">=10.0.0"
-  },
-  "dependencies": {}
+    "node": ">=14.0.0"
+  }
 }
